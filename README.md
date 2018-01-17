@@ -1,5 +1,4 @@
-# Laboratorio di Sistemi Operativi
-## Progetto A.A. 2015/2016– Ascensore2016
+# AscensoreC
 Obiettivo del progetto è la realizzazione di un programma che descrive il
 comportamento di un ascensore.
 L'ascensore opera su quattro piani, portando differenti tipologie di persone da
@@ -61,12 +60,12 @@ o Parte dal piano 0
 o Appena la prima persona è disponibile al piano 0, sale a bordo e quindi
 l’ascensore parte.
 O L’ascensore visita i piani iterando il seguente ordine:
- dal piano 0 al piano 1
- dal piano 1 al piano 2
- dal piano 2 al piano 3
- dal piano 3 al piano 2
- dal piano 2 al piano 1
- dal piano 1 al piano 0
+* dal piano 0 al piano 1
+* dal piano 1 al piano 2
+* dal piano 2 al piano 3
+* dal piano 3 al piano 2
+* dal piano 2 al piano 1
+* dal piano 1 al piano 0
 Ad ogni piano, le persone possono scendere e salire. Ovviamente si devono
 sempre rispettare i tempi di percorrenza e di sosta sopra definiti.
 Da notare, non esiste il concetto di “chiamata” dell’ascensore da parte di
@@ -75,3 +74,16 @@ persone in attesa ad altri piani
 all’ascensore”
 . L’ascensore, anche vuoto, si sposta sempre al piano successivo (o al
 precedente), tramite la sequenza mostrata sopra.
+
+
+## Compilazione e Avvio
+Assicurarsi che i file ascensore.c, avviopiani.c, piano.c, i file contenenti i
+tempi di spawn e la cartella “lib” siano nella stessa cartella. Compilare
+l’ascensore con i comandi:
+`$ cc ascensore.c -o ascensore`
+`$ cc piano.c -o piano`
+`$ cc avviopiani.c -o avvio`
+Per avviare il sistema aprire due terminali. Sul primo terminale digitare:
+`$ ./ascensore`
+Sul secondo terminale digitare:
+`$ ./avvio`
