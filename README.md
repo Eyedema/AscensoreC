@@ -1,5 +1,5 @@
-#Laboratorio di Sistemi Operativi
-##Progetto A.A. 2015/2016– Ascensore2016
+# Laboratorio di Sistemi Operativi
+## Progetto A.A. 2015/2016– Ascensore2016
 Obiettivo del progetto è la realizzazione di un programma che descrive il
 comportamento di un ascensore.
 L'ascensore opera su quattro piani, portando differenti tipologie di persone da
